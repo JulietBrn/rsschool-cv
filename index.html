@@ -3,8 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Resume Barinova Iuliia - Junior Frontend Developer</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
+        <header class="header">
+            <img class="my-photo" src="img/myPhoto.jpg" alt="my-photo">
+            <div>
+                <h1>Barinova Iuliia</h1>
+                <h2>Junior Frontend Developer</h2>
+                <h3>Contact details</h3>
+                <ul class="contacts__list">
+                    <li class="contacts__list-item text"><span class="bold">Mobile number:</span> +421 940 880 000</li>
+                    <li class="contacts__list-item text"><span class="bold">E-mail</span>: shi.ja@gmail.com</li>
+                    <li class="contacts__list-item text"><span class="bold">Telegram:</span> @Belyplen</li>
+                    <li class="contacts__list-item text"><span class="bold">Discord:</span> @JulietBrn</li>
+                </ul>
+            </div>
+        </header>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__list-item">
+                    <a class="nav__link" href="#skills">Skills</a>
+                </li>
+                <li class="nav__list-item">
+                    <a class="nav__link" href="#code-example">Code example</a>
+                </li>
+                <li class="nav__list-item">
+                    <a class="nav__link" href="#work-experience">Work experience</a>
+                </li>
+                <li class="nav__list-item">
+                    <a class="nav__link" href="#education">Education</a>
+                </li>
+                <li class="nav__list-item">
+                    <a class="nav__link" href="#languages">Languages</a>
+                </li>
+            </ul>
+        </nav> 
+        <main>
+            <section class="about-me mb-3">
+                <h3>About me</h3>
+                <p>I am passionate about web development and eager to learn new skills and techniques to help me grow as a developer. I also have a strong eye for detail which I believe is essential for this role.</p>
+            </section>
+            <section class="mb-3" id="skills">
+                <h3>Skills</h3>
+                <div class="icon-box">
+                    <img title="HTML5" class="icon-box__item" src="icons/html5.png" alt="icon html5">
+                    <img title="CSS3" class="icon-box__item" src="icons/css3.png" alt="icon css3">
+                    <img title="JavaScript" class="icon-box__item" src="icons/js.png" alt="icon js">
+                    <img title="Github" class="icon-box__item" src="icons/github.png" alt="icon github">
+                    <img title="Git" class="icon-box__item" src="icons/git.png" alt="icon git">
+                    <img title="Figma" class="icon-box__item" src="icons/Figma.png" alt="icon Figma">
+                    <img title="Photoshop" class="icon-box__item" src="icons/photoshop.png" alt="icon photoshop">
+                    <img title="Premier pro" class="icon-box__item" src="icons/premier pro.png" alt="icon premier pro">
+                    <img title="illustrator"  class="icon-box__item" src="icons/illustrarot.png" alt="icon illustrator">
+                </div>
+
+            </section>
+            <section class="mb-3" id="code-example">
+                <h3>Code example</h3>
+                <div class="code-example__wrapper">
+                    <div class="code-example__description">
+                        <p class="italic">You probably know the <span class="bold">"like"</span>  system from Facebook and other pages. People can "like" blog posts, pictures or other items. We want to create the text that should be displayed next to such an item. Implement the function which takes an array containing the names of people that like an item.</p>
+                        <a class="text wine-color bold" target="_blank" href="https://www.codewars.com/kata/5266876b8f4bf2da9b000362">KATA description from [CODEWARS]</a>
+                    </div>
+                    <div class="code-example__solution">
+                        <h4>Solution:</h4>
+                <pre><code>function likes(names) {
+    if (names.length == 0) {
+        return (`no one likes this`);
+    }
+    // 1 likes
+    if (names.length == 1) {
+        return (`${names[0]} likes this`);
+    }
+    // 2 likes
+    if (names.length == 2) {
+        return (`${names[0]} and ${names[1]} like this`);
+    }
+    // 3 likes
+    if (names.length == 3) {
+        return (`${names[0]}, ${names[1]} and ${names[2]} like this`);
+    }
+    // 4 and more likes
+    if (names.length >= 4) {
+        return (`${names[0]}, ${names[1]} and ${names.length-2} 
+        others like this`);
+    }
+}</code></pre>
+                    </div>
+                </div>
+            </section>
+            <section class="mb-3" id="work-experience">
+                <h3>Work experience</h3>
+                <p> <a target="_blank" href="https://julietbrn.github.io/Project-guest-house/">[Project guest house]</a> - Project based on CSS GRID, JavaScript, HTML, Sass</p>
+            </section>
+            <section class="mb-3" id="education">
+                <h3>Education</h3>
+                <p>Saint Petersburg State University of Economics and Finance</p>
+            </section>
+            <section class="mb-3" id="courses">
+                <h3>Courses</h3>
+                <ul class="courses__list">
+                    <li class="courses__list-item text"><span class="">Website layout and development. Advanced level, 2023 - </span><a target="_blank" href="https://stepik.org/cert/1946098">[Certificate]</a></li>
+                    <li class="courses__list-item text"><span class="">Theory of digital design. Web design, photography, composition, 2023 - </span><a target="_blank" href="https://stepik.org/cert/1939875">[Certificate]</a></li>
+                    <li class="courses__list-item text"><span class="">Web design in Figma. Basics of UX/UI web design, 2022 - </span><a target="_blank" href="https://stepik.org/cert/1867957">[Certificate]</a></li>
+                </ul>
+            </section>
+            <section class="mb-3" id="languages">
+                <h3>Languages</h3>
+                    <ul class="languages__list">
+                        <li class="languages__list-item text"><span class="bold">English</span> - Intermediate (B1)</li>
+                        <li class="languages__list-item text"><span class="bold">Russian</span> - Proficiency (C2)</li>
+                        <li class="languages__list-item text"><span class="bold">Slovak</span> - Elementary (A2)</li>
+                    </ul>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__wrapper">
+                <div class="footer__box">
+                    <a title="my Github profile" target="_blank" href="https://github.com/JulietBrn"><img src="icons/github.png" alt="My Github profile"></a>
+                    <p class="year bold">2023</p>
+                </div>
+                <div class="rs-logo"><a target="_blank" title="click on me" href="https://rs.school/js/"><img  src="icons/logo__rs_school_js.svg" alt="logo__rs_school"></a></div>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
