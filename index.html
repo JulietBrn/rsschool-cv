@@ -9,7 +9,7 @@
 <body>
     <div class="container">
         <header class="header">
-            <img class="my-photo" src="img/myPhoto.jpg" alt="my-photo">
+            <img class="my-photo" src="img/me.jpg" alt="my-photo">
             <div>
                 <h1>Barinova Iuliia</h1>
                 <h2>Junior Frontend Developer</h2>
@@ -87,7 +87,7 @@
         return (`${names[0]}, ${names[1]} and ${names[2]} like this`);
     }
     // 4 and more likes
-    if (names.length >= 4) {
+    if (names.length &gt;= 4) {
         return (`${names[0]}, ${names[1]} and ${names.length-2} 
         others like this`);
     }
@@ -97,7 +97,8 @@
             </section>
             <section class="mb-3" id="work-experience">
                 <h3>Work experience</h3>
-                <p> <a target="_blank" href="https://julietbrn.github.io/Project-guest-house/">[Project guest house]</a> - Project based on CSS GRID, JavaScript, HTML, Sass</p>
+                <p> <a target="_blank" href="https://julietbrn.github.io/js-projects/library/">[Project Library]</a> - Project based on JavaScript, HTML, Sass</p>
+                <!-- <p> <a target="_blank" href="https://julietbrn.github.io/js-projects/random-game/">[Memory game]</a> - Try it!</p> -->
             </section>
             <section class="mb-3" id="education">
                 <h3>Education</h3>
@@ -106,6 +107,8 @@
             <section class="mb-3" id="courses">
                 <h3>Courses</h3>
                 <ul class="courses__list">
+                    <li class="courses__list-item text"><span class="">Frontend JS, Stage 0. RS-School, 2023- </span><a target="_blank" href="img/RS.png    ">[Certificate]</a></li>
+                    <li class="courses__list-item text"><span class="">JavaScript course, 2023 - </span><a target="_blank" href="https://stepik.org/cert/1958710?lang=en">[Certificate]</a></li>
                     <li class="courses__list-item text"><span class="">Website layout and development. Advanced level, 2023 - </span><a target="_blank" href="https://stepik.org/cert/1946098">[Certificate]</a></li>
                     <li class="courses__list-item text"><span class="">Theory of digital design. Web design, photography, composition, 2023 - </span><a target="_blank" href="https://stepik.org/cert/1939875">[Certificate]</a></li>
                     <li class="courses__list-item text"><span class="">Web design in Figma. Basics of UX/UI web design, 2022 - </span><a target="_blank" href="https://stepik.org/cert/1867957">[Certificate]</a></li>
@@ -115,7 +118,7 @@
                 <h3>Languages</h3>
                     <ul class="languages__list">
                         <li class="languages__list-item text"><span class="bold">English</span> - Intermediate (B1)</li>
-                        <li class="languages__list-item text"><span class="bold">Russian</span> - Proficiency (C2)</li>
+                        <li class="languages__list-item text"><span class="bold">Russian</span> - Native</li>
                         <li class="languages__list-item text"><span class="bold">Slovak</span> - Elementary (A2)</li>
                     </ul>
             </section>

@@ -54,17 +54,23 @@ function likes(names) {
     }
 }
 ```
+### Education
+Saint Petersburg State University of Economics and Finance, 2017
 
 ### Work experience
-[Project guest house](https://github.com/JulietBrn/Project-guest-house) - Project based on CSS GRID, JavaScript, HTML, Sass
+[Project Library](https://julietbrn.github.io/js-projects/library/) - Project based on JavaScript, HTML, Sass
+[Memory game](https://julietbrn.github.io/js-projects/random-game/) - Try it!
 
 
 ### Courses
+* **Frontend JS. Stage 0** RS-School, 2023
+* **JavaScript course** 2023 [Certificate](https://stepik.org/cert/1958710?lang=en)
 * **Website layout and development.** Advanced level, 2023 [Certificate](https://stepik.org/cert/1946098)
 * **Theory of digital design.** Web design, photography, composition, 2023 [Certificate](https://stepik.org/cert/1939875)
 * **Web design in Figma.** Basics of UX/UI web design, 2022 [Certificate](https://stepik.org/cert/1867957)
 
+
 ### Languages
 * **English** - Intermediate (B1)
-* **Russian** - Proficiency (C2)
+* **Russian** - Native
 * **Slovak** - Elementary (A2)
